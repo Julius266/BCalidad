@@ -1,6 +1,6 @@
 from flask import Flask, request, redirect, flash, jsonify
 from flask_mysqldb import MySQL
-from flask_cors import CORS, cross_origin
+from flask_cors import CORS
 
 app = Flask(__name__)
 app.secret_key = '123456'
@@ -13,6 +13,7 @@ app.config['MYSQL_DB'] = 'b3ye8bah7wwmpabuubvk'
 
 # Inicialización de la extensión MySQL
 mysql = MySQL(app)
+cors = CORS(app)
 
 # Rutas
 
