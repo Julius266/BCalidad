@@ -4,7 +4,9 @@ Esta es una aplicación de gestión de inventario desarrollada utilizando Flask.
 ## Crear base de datos
 
 1. Crear una base de datos en Mysql con el archivo proporcionado en el git hub:
-   (iamgen)
+
+![image](https://github.com/Julius266/BCalidad/assets/76917360/3916bf12-d191-494d-93f1-fae55ebd39f9)
+
 
 ## Requisitos
 
