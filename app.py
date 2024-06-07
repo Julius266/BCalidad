@@ -1,5 +1,6 @@
 from flask import Flask, request, redirect, flash, jsonify
 from flask_mysqldb import MySQL
+from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
 app.secret_key = '123456'
