@@ -16,6 +16,9 @@ mysql = MySQL(app)
 cors = CORS(app)
 
 # Rutas
+@app.route('/')
+def hello():
+    return jsonify({'message': 'Your Backend is working!'})
 
 # Esta función maneja las solicitudes GET a la raíz de la aplicación.
 # Retorna todos los productos en formato JSON.
