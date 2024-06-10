@@ -20,16 +20,23 @@ Esta es una aplicación de gestión de inventario desarrollada utilizando Flask.
    ```bash
    git clone https://github.com/Julius266/BCalidad.git
    ```
-2. Activación de entorno virtual:
+
+2. (Recomendable) Crear un entorno virtual:
+
+   ```bash
+   python -m venv <nombre_del_entorno>
+   ```
+
+3. Activación de entorno virtual:
 
    ```bash
     .\Scripts\activate     
    ```
    
-4. Instalación de dependencias:
+4. Instalación de requerimientos:
 
    ```bash
-   pip install
+   pip install -r requirements.txt
    ```
 
 ## Base de datos
