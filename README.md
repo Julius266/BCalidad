@@ -29,6 +29,7 @@ Esta es una aplicación de gestión de inventario desarrollada utilizando Flask.
    
 ( se recomienda crear el entorno virtual llamandolo: env )
 
+
 3. Activación de entorno virtual:
 
    ```bash
