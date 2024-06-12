@@ -25,7 +25,9 @@ Esta es una aplicación de gestión de inventario desarrollada utilizando Flask.
 
    ```bash
    python -m venv <nombre_del_entorno>
-   ```
+    ```
+   
+( se recomienda crear el entorno virtual llamandolo: env )
 
 3. Activación de entorno virtual:
 
